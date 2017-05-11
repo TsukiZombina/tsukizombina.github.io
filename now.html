@@ -1,14 +1,18 @@
 ---
 layout: default
 ---
-<div class="row" style="margin-bottom:30px;"></div>
-  
-  <div class="col-md-8">
-    <article class="post-contents">
-      <div class="container" style="width:auto">
-	
-		  <h3>What I’m Doing Now</h3>
-		  <p>I'm in Mexico City. It's Spring. <br /> I just finished my major on computer engineering, now I want won start a Master's Degree, so my priorities right now are:
+<div class="row">
+  <div class="col-md-1 col-xs-0"></div>
+    <div class="col-md-10 col-xs-12">
+<article class="post post-contents" style="margin-bottom:30px;" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">What I’m Doing Now</h1>
+    <p class="post-meta"><i class="fa fa-calendar">&nbsp;&nbsp;</i><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  </header>
+
+  <div class="post-content" style="margin:15px;" itemprop="articleBody">
+    <p>I'm in Mexico City. It's Spring. <br /> I just finished my major on computer engineering, now I want won start a Master's Degree, so my priorities right now are:
 		  <ul>
 			<li>Study for admision exams.</li>
 			<li>Look for foreign scholarships.</li>
@@ -16,11 +20,11 @@ layout: default
 			<li>Doing daily excercise.</li>
 			<li>Learning english.</li>
 		  </ul>
-		
-      </div>
-    </article>
+	</p>
   </div>
-</div>
+</article>
 
-<div class="clearfix"></div>
+</div>
+<div class="col-md-1 col-xs-0"></div>
+</div>
 
